@@ -131,7 +131,7 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ staticFilePath }) => {
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
                 components={{
-                  code: ({ node, className, children, ...props }) => {
+                  code: ({ className, children, ...props }) => {
                     const isInline = !className?.includes("language-");
                     return isInline ? (
                       <code className="bg-muted px-1 py-0.5 rounded text-sm" {...props}>
