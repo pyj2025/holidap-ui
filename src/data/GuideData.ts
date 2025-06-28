@@ -1,0 +1,34 @@
+import { GuideItemType } from "@/type/guide";
+
+export const CategoryData: string[] = ["캐나다", "한국", "항공"];
+
+export const GuideData: GuideItemType[] = [
+  {
+    id: "canada_sim_card_application",
+    title: "캐나다 유심 신청 및 현지 사용",
+    category: "캐나다",
+    tags: "모바일",
+    filePath: "/content/canada_sim_card_application.md",
+  },
+  {
+    id: "basic-prep",
+    title: "기본준비물 (document)",
+    category: "한국",
+    tags: "생활용품, 필수품",
+    filePath: "/content/sample.md",
+  },
+  {
+    id: "flight-prep",
+    title: "비행기 짐도 예비 (항공사별 수화물 차이 등)",
+    category: "항공",
+    tags: "수화물, 항공사",
+    filePath: "/content/sample.md",
+  },
+  {
+    id: "additional-prep",
+    title: "수화물 준비 (캐리어, 이민가방, 이삿박스 비교 등)",
+    category: "항공",
+    tags: "수화물, 이삿짐",
+    filePath: "/content/sample.md",
+  },
+];
