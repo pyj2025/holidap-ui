@@ -18,6 +18,27 @@ export const GuideData: GuideItemType[] = [
     filePath: "/content/keep_korean_number.md"
   },
   {
+    id: "atm_travel_card_info",
+    title: "트래블전용 카드 / ATM 정보",
+    category: "한국",
+    tags: "금융",
+    filePath: "/content/atm_travel_card_info.md"
+  },
+  {
+    id: "open_bank_account",
+    title: "캐나다 은행 계좌 오픈",
+    category: "캐나다",
+    tags: "금융",
+    filePath: "/content/open_bank_account.md"
+  },
+  {
+    id: "transfer_across_country",
+    title: "나라간 송금하기",
+    category: "한국",
+    tags: "금융",
+    filePath: "/content/transfer_across_country.md"
+  },
+  {
     id: "luggage-preparation-guide",
     title: "캐나다 워킹홀리데이 수화물 준비 가이드",
     category: "한국",
