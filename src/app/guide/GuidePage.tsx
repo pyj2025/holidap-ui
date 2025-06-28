@@ -12,14 +12,16 @@ function GuidePage() {
 
   const [expandedCategories, setExpandedCategories] = useState<Set<string>>(new Set(CategoryData));
 
-  const categorizedItems = useMemo(() => {
-    return _.groupBy(GuideData, "category");
-  }, []);
+  const categorizedItems = useMemo(() => _.groupBy(GuideData, "category"), []);
 
   const toggleCategory = (categoryName: string) => {
     setExpandedCategories(prev => {
-      const newSet = _.clone(prev);
-      newSet.has(categoryName) ? newSet.delete(categoryName) : newSet.add(categoryName);
+      const newSet = new Set(prev);
+      if (newSet.has(categoryName)) {
+        newSet.delete(categoryName);
+      } else {
+        newSet.add(categoryName);
+      }
       return newSet;
     });
   };

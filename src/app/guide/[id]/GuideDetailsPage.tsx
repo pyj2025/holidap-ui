@@ -4,12 +4,13 @@ import { useParams } from "next/navigation";
 import _ from "lodash";
 import MarkdownReader from "@/components/markdown/MarkdownReader";
 import { GuideData } from "@/data/GuideData";
+import { GuideItemType } from "@/type/guide";
 
 function GuideDetailsPage() {
   const params = useParams();
-  const id = params.id;
+  const id = Array.isArray(params.id) ? params.id[0] : params.id;
 
-  const currentGuide = _.find(GuideData, { id: id });
+  const currentGuide: GuideItemType | undefined = _.find(GuideData, { id: id });
 
   if (!id || !currentGuide) {
     return (
@@ -22,16 +23,16 @@ function GuideDetailsPage() {
 
   return (
     <div className="container mx-auto py-8">
-      <h1 className="text-3xl font-bold mb-8">{currentGuide.title}</h1>
-      <div className="mb-4">
+      <h1 className="text-3xl font-bold mb-8">{id}</h1>
+      {/* <div className="mb-4">
         <span className="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded mr-2">
           {currentGuide.category}
         </span>
         <span className="bg-gray-100 text-gray-800 text-sm font-medium px-2.5 py-0.5 rounded">
           {currentGuide.tags}
         </span>
-      </div>
-      <MarkdownReader staticFilePath={currentGuide.filePath} />
+      </div> */}
+      <MarkdownReader staticFilePath={currentGuide?.filePath || "/content/sample.md"} />
     </div>
   );
 }

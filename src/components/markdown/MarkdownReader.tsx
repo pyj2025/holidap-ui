@@ -3,16 +3,17 @@
 import React, { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { FileText, AlertCircle } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
+import { AlertCircle } from "lucide-react";
 
 interface MarkdownReaderProps {
-  staticFilePath: string;
+  staticFilePath?: string;
 }
 
-const MarkdownReader: React.FC<MarkdownReaderProps> = ({ staticFilePath }) => {
+const MarkdownReader: React.FC<MarkdownReaderProps> = ({
+  staticFilePath = "/content/sample.md",
+}) => {
   const [markdownContent, setMarkdownContent] = useState<string>("");
-  const [fileName, setFileName] = useState<string>("");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string>("");
   const [isMounted, setIsMounted] = useState(false);
@@ -43,7 +44,6 @@ const MarkdownReader: React.FC<MarkdownReaderProps> = ({ staticFilePath }) => {
 
       const content = await response.text();
       setMarkdownContent(content);
-      setFileName(filePath.split("/").pop() || "Unknown File");
     } catch (error) {
       console.error("파일 로드 실패:", error);
       setError(error instanceof Error ? error.message : "파일을 불러오는데 실패했습니다.");
@@ -56,15 +56,6 @@ const MarkdownReader: React.FC<MarkdownReaderProps> = ({ staticFilePath }) => {
   return (
     <div className="w-full max-w-4xl mx-auto p-4 space-y-4">
       <Card>
-        <CardHeader>
-          <CardTitle className="flex items-center gap-2">
-            <FileText className="w-5 h-5" />
-            {fileName || "Markdown Reader"}
-          </CardTitle>
-          {staticFilePath && (
-            <p className="text-sm text-muted-foreground">파일 경로: {staticFilePath}</p>
-          )}
-        </CardHeader>
         <CardContent>
           {isLoading && (
             <div className="flex items-center justify-center py-8">
