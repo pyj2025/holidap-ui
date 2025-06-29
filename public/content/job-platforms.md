@@ -41,6 +41,6 @@ tags:
 - **주요 채용**: 한인 잡 위주
 
 ### 우리는 벤쿠버 유학생 (우벤유)
-- **사이트**: [우벤유 커뮤니티](https://cafe.daum.net/ourvancouver/_rec)
+- **사이트**: [우벤유 커뮤니티](https://cafe.daum.net/ourvancouver)
 - **특징**: 벤쿠버 한인 커뮤니티
 - **주요 채용**: 한인 잡 위주
