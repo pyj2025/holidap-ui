@@ -24,7 +24,7 @@ tags:
 
 [예방접종 도우미 홈페이지](https://nip.kdca.go.kr/irhp/index.jsp)
 
-![출국 전 예방접종 1.png]()
+![vaccination_guide_1](/images/vaccination_guide/vaccination_guide_1.png)
 
 ## 예방접종 도우미 서비스 소개
 
@@ -38,7 +38,7 @@ tags:
 
 [건강보험심사평가원 홈페이지](https://www.hira.or.kr/main.do)
 
-![출국 전 예방접종 2.jpg]()
+![vaccination_guide_2](/images/vaccination_guide/vaccination_guide_2.jpg)
 
 건강보험심사평가원 홈페이지에서 '비급여진료비정보' 메뉴를 통해 원하는 예방접종(예시: 독감, 폐렴구균, A형간염 등) 가격을 지역별, 병원별로 비교할 수 있습니다. 병원마다 가격 차이가 있으니, 여러 곳을 조회해보고 일정과 예산에 맞는 곳을 선택하세요.
 
