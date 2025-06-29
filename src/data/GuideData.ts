@@ -11,11 +11,11 @@ export const GuideData: GuideItemType[] = [
     filePath: "/content/canada_sim_card_application.md",
   },
   {
-    id: "canada-immigration-packing-guide",
+    id: "luggage-preparation-guide",
     title: "캐나다 워킹홀리데이 수화물 준비 가이드",
     category: "한국",
     tags: "항공",
-    filePath: "/content/canada-immigration-packing-guide.md",
+    filePath: "/content/luggage-preparation-guide.md",
   },
   {
     id: "basic-documents",
@@ -32,17 +32,17 @@ export const GuideData: GuideItemType[] = [
     filePath: "/content/one-way-ticket-booking.md",
   },
   {
-    id: "job-platforms-in-canada",
+    id: "job-platforms",
     title: "캐나다 현지 구직 플랫폼 가이드",
     category: "캐나다",
     tags: "취업",
-    filePath: "/content/job-platforms-in-canada.md",
+    filePath: "/content/job-platforms.md",
   },
   {
-    id: "useful-apps-in-canada",
+    id: "useful-apps",
     title: "캐나다 유용한 앱 안내",
     category: "캐나다",
     tags: "생활",
-    filePath: "/content/useful-apps-in-canada.md",
+    filePath: "/content/useful-apps.md",
   },
 ];
