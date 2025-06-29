@@ -67,6 +67,13 @@ export const GuideData: GuideItemType[] = [
     filePath: "/content/photo_id.md"
   },
   {
+    id: "overseas_residency_report",
+    title: "해외 체류 신고",
+    category: "캐나다",
+    tags: "서류",
+    filePath: "/content/overseas_residency_report.md"
+  },
+  {
     id: "luggage-preparation-guide",
     title: "캐나다 워킹홀리데이 수화물 준비 가이드",
     category: "한국",
