@@ -11,7 +11,7 @@ tags:
 
 # 카드 사용
 
-![image.png](%E1%84%90%E1%85%B3%E1%84%85%E1%85%A2%E1%84%87%E1%85%B3%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%AD%E1%86%BC%20%E1%84%8F%E1%85%A1%E1%84%83%E1%85%B3%20ATM%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%2021bfd810137180179d05ce165c475417/image.png)
+![image.png](/images/atm-travel-card-info/image.png)
 
 대부분 한국에서 발급되는 여행용 카드는 contactless 심볼이 있고, 캐나다에서 tap to pay로 카페, 레스토랑, 마트 등에서 문제 없이 사용할 수 있습니다.
 
