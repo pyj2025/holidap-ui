@@ -1,9 +1,9 @@
 "use client";
 
-import MainPage from "./main/MainPage";
+import GuidePage from "./guide/GuidePage";
 
 function Home() {
-  return <MainPage />;
+  return <GuidePage />;
 }
 
 export default Home;

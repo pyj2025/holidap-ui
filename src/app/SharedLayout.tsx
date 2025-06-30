@@ -1,12 +1,12 @@
 "use client";
 
-import { Settings, User, LogOut, Plane } from "lucide-react";
+import { Plane } from "lucide-react";
 import { MenuItems } from "@/constant/MenuItems";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import {
   Sidebar,
   SidebarContent,
-  SidebarFooter,
+  // SidebarFooter,
   SidebarGroup,
   SidebarGroupContent,
   SidebarGroupLabel,
@@ -16,16 +16,16 @@ import {
   SidebarProvider,
   SidebarTrigger,
 } from "@/components/ui/sidebar";
-import { DevMenuItems } from "@/constant/DevMenuItems";
+// import { DevMenuItems } from "@/constant/DevMenuItems";
 
 interface SharedLayoutProps {
   children: React.ReactNode;
 }
 
 function SharedLayout({ children }: SharedLayoutProps) {
-  const handleLogout = () => {
-    console.log("");
-  };
+  // const handleLogout = () => {
+  //   console.log("");
+  // };
 
   return (
     <SidebarProvider>
@@ -49,7 +49,7 @@ function SharedLayout({ children }: SharedLayoutProps) {
                 </SidebarMenu>
               </SidebarGroupContent>
             </SidebarGroup>
-            <SidebarGroup>
+            {/* <SidebarGroup>
               <SidebarGroupLabel>For Dev</SidebarGroupLabel>
               <SidebarGroupContent>
                 <SidebarMenu>
@@ -65,8 +65,8 @@ function SharedLayout({ children }: SharedLayoutProps) {
                   ))}
                 </SidebarMenu>
               </SidebarGroupContent>
-            </SidebarGroup>
-            <SidebarGroup>
+            </SidebarGroup> */}
+            {/* <SidebarGroup>
               <SidebarGroupLabel>Account</SidebarGroupLabel>
               <SidebarGroupContent>
                 <SidebarMenu>
@@ -88,10 +88,10 @@ function SharedLayout({ children }: SharedLayoutProps) {
                   </SidebarMenuItem>
                 </SidebarMenu>
               </SidebarGroupContent>
-            </SidebarGroup>
+            </SidebarGroup> */}
           </SidebarContent>
 
-          <SidebarFooter className="border-t border-sidebar-border p-4">
+          {/* <SidebarFooter className="border-t border-sidebar-border p-4">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex items-center justify-center">
@@ -103,7 +103,7 @@ function SharedLayout({ children }: SharedLayoutProps) {
                 <LogOut className="w-4 h-4" />
               </Button>
             </div>
-          </SidebarFooter>
+          </SidebarFooter> */}
         </Sidebar>
 
         <main className="flex-1 flex flex-col">
