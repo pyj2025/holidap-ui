@@ -50,24 +50,24 @@ MSP는 브리티시컬럼비아주의 주정부에서 관리하는 건강 보험
 
 # 온타리오(ON)주 -  OHIP
 
-[https://www.ontario.ca/page/apply-ohip-and-get-health-card](https://www.ontario.ca/page/apply-ohip-and-get-health-card)
+[Apply for OHIP and get a health card](https://www.ontario.ca/page/apply-ohip-and-get-health-card)
 
-### OHIP란?
+## OHIP란?
 
 - OHIP (Ontario Health Insurance Plan)은 온타리오주에서 제공하는 공공의료보험입니다.
 - OHIP에 가입하면 병원 진료, 응급실, 의료 검사, 수술 등 다양한 의료 서비스를 무료로 받을 수 있습니다.
 
-### 자격요건
+## 자격요건
 
 1. 온타리오주에 1년 중 153일 이상 실제로 거주해야 합니다.
 2. 온타리오주가 주 거주지여야 합니다.
 3. 유효한 워크퍼밋 소지자일 경우 6개월 이상 풀타임으로 근무하고 있어야 합니다.
 
-### 신청 방법
+## 신청 방법
 
 - 가까운 ServiceOntario 센터에 방문 신청 (온라인 불가)
 
-### 준비서류 (원본 필요, 복사본 불가):
+## 준비서류 (원본 필요, 복사본 불가):
 
 - **OHIP 신청서 (Registration for Ontario Health Insurance Coverage Form)** - 서비스온타리오에 방문하면 제공됩니다.
 - **원본 문서**
